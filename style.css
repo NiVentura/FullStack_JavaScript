@@ -1,0 +1,120 @@
+
+
+.photo{
+    border-radius: 50%; /*Os valores funciona em sentido horário.*/
+    width: 250px;
+    margin: 25px 30px 0 30px; /*shorthand */
+    box-shadow: 0px 0px 10px;
+    border: 2px solid #ffffff
+}
+
+ /*
+ Borda da foto - primeiro quanto pixel vc quer de espessura da sua bordas; qual o tipo de borda q vc quer e a cor desta borda. 
+
+    A ordem é importante: 
+    Primeiro width: ;
+    segundo style;
+    terceiro color. 
+
+sombra da caixa (Recebe quatro parâmetros)
+    
+    Primeiro: distância na sombra na horizontal
+    Segundo: distância na sombra na vertical
+    terceiro: desfoque da sombra, quanto vc quer.
+    quarto: a cor da sombra
+    
+    
+*/
+
+.profile{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif; /*Define a fonte a ser usada*/
+        /* Qdo a fonte tiver dois nomes deverão vir entre aspas duplas, exemplo: 'Courier New'*/
+    margin: 0%;
+    background-color: cornsilk; /*Cor de fundo da página (corpo)*/
+
+}
+
+.container{
+    margin: 0 auto; /*espaçamento interno*/
+    width: 1000px;
+    
+}
+
+h1{
+    margin-top: 10px;
+    margin-bottom: 0;
+    letter-spacing: -1px;
+    font-family: 'Roboto', 'sans-serife';
+    font-size: 40px; /*Tamanho do texto*/
+}
+
+h2{
+    margin-top: 0px;
+    font-style:italic; 
+    font-weight: 100; /*altura e grossura da fonte*/
+    letter-spacing: -1px; /*espaço entre as letras*/
+}
+
+h3{
+    color: black; /*Define a cor do texto*/
+    margin-top: 50px;
+    margin-bottom: 15px;
+    letter-spacing: -1%;   
+    
+}
+
+h4{
+    color: rgb(19, 3, 3);
+    letter-spacing: -1%;   
+  
+}
+
+.footer{ /* Nota de rodapé*/
+    background-color: black; 
+    margin-top: 3%;
+    color: white;
+    text-align: center;
+    padding: 10px 0; /*espaçamento externo - entre o texto e a borda*/
+    /* Qdo utilizamos dois valores: O primeiro corresponde a margin top e bottom, e o segundo valor a rigth e left*/
+}
+
+.social-links{
+    text-decoration: none; /*Serve apenas para remover o underline (sublinhado) dos links*/
+}
+
+.social-icons{
+    width: 20px;
+    height: auto;
+    /* height: auto; Não é necessário expressar caso queira deixar automático*/
+}
+
+.github{
+    margin: 0 15px 0 15px;
+}
+
+.job-list{
+    list-style: none;
+    padding-left: 20px;
+}
+
+p{
+    margin-top: -2%;
+    text-align: justify; /*Alinhamento do texto*/
+}
+
+.details{
+    margin-top: 1%;
+
+}
+
+
+ 
+/*
+    Se vc deseja colocar a mesma porcentagem para as posições, só é necessário fazer apenas uma vez. Tanto no padding como no margin
+ */
